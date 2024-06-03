@@ -1,0 +1,226 @@
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin: 0 0 30px;
+}
+
+#hero .btn {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Key Problems Solved Section */
+#key-problems {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+#key-problems h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.problem-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.problem-item {
+    flex: 1;
+    padding: 20px;
+}
+
+.problem-item h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Key Metrics Section */
+#key-metrics {
+    background: #fff;
+    padding: 60px 0;
+}
+
+#key-metrics h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.metrics-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.metric-item {
+    flex: 1;
+    padding: 20px;
+}
+
+.metric-item i {
+    font-size: 2em;
+    color: #6610f2;
+    margin-bottom: 10px;
+}
+
+.metric-item p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Reviews Section */
+#reviews {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+#reviews h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.review-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.review-item {
+    flex: 1;
+    padding: 20px;
+}
+
+.review-item p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.review-item h3 {
+    color: #007bff;
+}
+
+/* Features Section */
+#features {
+    background: #fff;
+    padding: 60px 0;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tab-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tab {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tab input[type="radio"] {
+    display: none;
+}
+
+.tab label {
+    display: block;
+    padding: 10px;
+    background: #eee;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+.tab label:hover {
+    background: #ddd;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.tab input[type="radio"]:checked + label + .tab-content {
+    display: block;
+}
+
+/* CTA Section */
+#cta {
+    background: linear-gradient(135deg, #6610f2, #007bff);
+    text-align: center;
+    color: #fff;
+    padding: 60px 0;
+}
+
+#cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#cta .btn {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
